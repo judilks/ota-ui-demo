@@ -56,9 +56,8 @@ a.header-link {
 
 #main-nav {
 	position: relative;
-	bottom: -26px;
-	left: -100px;
-	width: 100%;
+	bottom: -30px;
+	padding: 0 -10%;
 }
 
 #main-h1 {
@@ -67,15 +66,22 @@ a.header-link {
 }
 
 #nav-button {
+	box-sizing: border-box;
 	margin: 0 -2px;
 	background: #3A3B40;
-	padding: 6px 50px;
-
-
+	padding: 6px 0;
+	text-align: center;
+	width: 16.6666%;
+	display: inline-block;
 }
 
 #home-button {
+	box-sizing: border-box;
 	margin: 0 -2px;
+	margin-left: 0;
 	background: #D93E17;
-	padding: 6px 50px;
+	padding: 6px 0;
+	text-align: center;
+	width: 16.6666%;
+	display: inline-block;
 }
