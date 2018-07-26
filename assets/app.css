@@ -1,8 +1,16 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+   font-family: 'Open Sans', sans-serif;
+}
 
-.container{
+.container-banner{
+    clear: both;
     width: 80% !important;
     height: 30% !important;
-    margin:auto !important;
     max-width: 100%;
 }
 .slide{
@@ -37,9 +45,10 @@
 
 .center-section-div{
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 10%;
 	color: rgb(153, 153, 153);
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .center-section-cards {
@@ -116,12 +125,19 @@
     color: #5E5E5E;
     border-bottom:3px solid #ccc;
 }
-#login-button{
-    margin-left: auto;
-    margin-right: auto;
+#login-button-2{
+    margin-left: 48%;
+    margin-right: 48%;
     display: block;
     text-align: center;
+    background: #242424;
+    color: #ffffff;
+    border:none;
+    padding: 8px 12px;
 }
+
+
+
 .register-button{
     background: #242424;
     color: #ffffff;
@@ -133,15 +149,107 @@ ul {
 }
 label{
     float: left;
+    margin-left: 3%;
 }
 #username,
 #password{
     float:right;
     width:85%;
-    margin-right: 30px;
+    margin-right: 5%;
 }
 .last-section{
     clear: both;
     bottom: 0;
 }
 /*kanika's css code end here*/
+/*Nicks*/
+.container {
+	padding: 2% 10%;
+	margin-bottom: 2%;
+}
+
+img.header-image {
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+a.header-link {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+#header {
+    position: relative;
+	top: 0;
+	background: #9ac746;
+    width: 100%;
+    height: 16%;
+}
+
+#right-buttons {
+	float: right;
+}
+
+#social-buttons {
+	float: left;
+}
+
+#social-button {
+	padding: 0px 2px;
+}
+
+#login-buttons {
+	float: right;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+#login-button {
+	background: #D93E17;
+	margin: 0 -3px;	
+	padding: 4px 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#main-nav {
+    clear: both;
+	position: absolute;
+    bottom: 0;
+	left: 10%;
+	padding: 0;
+    width: 80%;
+}
+
+#main-h1 {
+	float: left;
+    color: white;
+    height: 20%;
+}
+
+#nav-button {
+	box-sizing: border-box;
+	margin: 0 -3px;
+	background: #3A3B40;
+	padding: 1% 0;
+	text-align: center;
+	width: 16.66666666%;
+    display: block;
+    float: left;
+}
+
+#home-button {
+	box-sizing: border-box;
+	margin: 0 -3px;
+	margin-left: 0;
+	background: #D93E17;
+	padding: 1% 0;
+	text-align: center;
+	width: 16.66666666666%;
+    display: block;
+    float: left;
+}
+#page-content{
+    margin: auto 10%;
+}
