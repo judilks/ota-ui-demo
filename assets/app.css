@@ -8,6 +8,7 @@
 
 .container {
 	padding: 2% 10%;
+	margin-bottom: 20px;
 }
 
 img.header-image {
@@ -56,8 +57,10 @@ a.header-link {
 
 #main-nav {
 	position: relative;
-	bottom: -30px;
-	padding: 0 -10%;
+	bottom: -30	px;
+	left: 10%;
+	padding: 0;
+	width: 80%;
 }
 
 #main-h1 {
