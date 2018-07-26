@@ -1,1 +1,45 @@
+/*Neel's Section: center-section*/
+.center-section-div{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: rgb(153, 153, 153);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.center-section-cards {
+	width: 33.33%;
+	float: left;
+}
+
+.center-section-camera {
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -15px;
+}
+
+.center-section-p {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: -10px;
+	font-size: 14;
+	color: rgb(153, 153, 153);
+
+}
+
+.center-section-h3 {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px; 
+	color: rgb(153, 153, 153);
+	font-weight: normal;
+}
+
+.center-section-h1{
+	text-align: center;
+	font-weight: normal;
+}
+/*End Nee'ls section: center-section*/
 
