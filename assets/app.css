@@ -1,1 +1,33 @@
+.container{
+    width: 80% !important;
+    height: 30% !important;
+    margin:auto !important;
+    max-width: 100%;
+}
+.slide{
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
 
+.img-text{
+    width: 100% !important;
+    height: 60% !important;
+    top:40px;
+    left: 0px;
+    z-index: 1;
+    margin: auto !important;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.learn-button{
+    background-color: #656565;
+    color: white;
+    border: #656565;
+}
