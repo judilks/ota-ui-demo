@@ -1,39 +1,4 @@
 
-
-/*kanika's css code start here*/
-
-
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-
-.img-text{
-    width: 100% !important;
-    height: 60% !important;
-    top:40px;
-    left: 0px;
-    z-index: 1;
-    margin: auto !important;
-    color: white;
-    position: absolute;
-    text-align: center;
-}
-.learn-button{
-    background-color: #656565;
-    color: white;
-    border: #656565;
-}
-
-/*Begin Nee'ls section: center-section*/
-
-
-.center-section-div{
-	margin-top: 25px;
-	margin-bottom: 25px;
-	color: rgb(153, 153, 153);
-	font-family: 'Open Sans', sans-serif;
- }
-/*End Nee'ls section: center-section*/
   .register-now-section{
 	text-align: center;
 	background: #90bf3e;
