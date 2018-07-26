@@ -1,1 +1,81 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
 
+.container {
+	padding: 2% 10%;
+}
+
+img.header-image {
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+a.header-link {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	background: #9ac746;
+	width: 100%;
+}
+
+#right-buttons {
+	float: right;
+}
+
+#social-buttons {
+	float: left;
+}
+
+#social-button {
+	padding: 0px 2px;
+}
+
+#login-buttons {
+	float: right;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+#login-button {
+	background: #D93E17;
+	margin: 0 -2px;	
+	padding: 4px 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#main-nav {
+	position: relative;
+	bottom: -26px;
+	left: -100px;
+	width: 100%;
+}
+
+#main-h1 {
+	float: left;
+	color: white;
+}
+
+#nav-button {
+	margin: 0 -2px;
+	background: #3A3B40;
+	padding: 6px 50px;
+
+
+}
+
+#home-button {
+	margin: 0 -2px;
+	background: #D93E17;
+	padding: 6px 50px;
+}
