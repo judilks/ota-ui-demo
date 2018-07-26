@@ -16,6 +16,26 @@
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 
+.img-text{
+    width: 100% !important;
+    height: 60% !important;
+    top:40px;
+    left: 0px;
+    z-index: 1;
+    margin: auto !important;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.learn-button{
+    background-color: #656565;
+    color: white;
+    border: #656565;
+}
+
+/*Begin Nee'ls section: center-section*/
+
+
 .center-section-div{
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -60,19 +80,3 @@
 }
 /*End Nee'ls section: center-section*/
 
-.img-text{
-    width: 100% !important;
-    height: 60% !important;
-    top:40px;
-    left: 0px;
-    z-index: 1;
-    margin: auto !important;
-    color: white;
-    position: absolute;
-    text-align: center;
-}
-.learn-button{
-    background-color: #656565;
-    color: white;
-    border: #656565;
-}
