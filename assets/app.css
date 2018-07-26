@@ -9,7 +9,7 @@
 
 .container-banner{
     clear: both;
-    width: 80% !important;
+    width: 100% !important;
     height: 30% !important;
     max-width: 100%;
 }
@@ -27,7 +27,7 @@
 .img-text{
     width: 100% !important;
     height: 60% !important;
-    top:40px;
+    top:20%;
     left: 0px;
     z-index: 1;
     margin: auto !important;
