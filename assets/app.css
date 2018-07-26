@@ -1,1 +1,62 @@
-
+/*kanika's css code start here*/
+.register-now-section{
+	text-align: center;
+	background: #90bf3e;
+	color: #ffffff;
+	width: 100%;
+	margin:auto;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+#register-section-link-1,
+#register-section-link-2,
+#register-section-link-3{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+}
+#register-section-link-2,
+#register-section-link-3
+{
+	border-left:2px solid #ffffff;	
+}
+#bottom-section{
+	box-sizing: border-box;
+	border-style:solid;
+	border-color: #ccc;
+	background: #ffffff;
+}
+.login-section{
+	color: #5E5E5E;
+}
+#h3-login-section{
+	padding-left: 40px;
+	padding-bottom: 10px;
+	color: #5E5E5E;
+	border-bottom:3px solid #ccc;
+}
+#login-button{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+.register-button{
+	background: #242424;
+	color: #ffffff;
+	border:none;
+	padding: 8px 16px;
+}
+ul {
+  list-style-type: none;
+}
+label{
+	float: left;
+}
+#username,
+#password{
+	float:right;
+	width:85%;
+	margin-right: 30px;
+}
+/*kanika's css code end here*/
