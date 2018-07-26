@@ -16,6 +16,25 @@
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 
+.img-text{
+    width: 100% !important;
+    height: 60% !important;
+    top:40px;
+    left: 0px;
+    z-index: 1;
+    margin: auto !important;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.learn-button{
+    background-color: #656565;
+    color: white;
+    border: #656565;
+}
+
+/*Begin neel*/
+
 .center-section-div{
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -60,19 +79,69 @@
 }
 /*End Nee'ls section: center-section*/
 
-.img-text{
-    width: 100% !important;
-    height: 60% !important;
-    top:40px;
-    left: 0px;
-    z-index: 1;
-    margin: auto !important;
-    color: white;
-    position: absolute;
+/*kanika's css code start here*/
+.register-now-section{
+    text-align: center;
+    background: #90bf3e;
+    color: #ffffff;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#register-section-link-1,
+#register-section-link-2,
+#register-section-link-3{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+#register-section-link-2,
+#register-section-link-3
+{
+    border-left:2px solid #ffffff;  
+}
+#bottom-section{
+    box-sizing: border-box;
+    border-style:solid;
+    border-color: #ccc;
+    background: #ffffff;
+}
+.login-section{
+    color: #5E5E5E;
+}
+#h3-login-section{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: #5E5E5E;
+    border-bottom:3px solid #ccc;
+}
+#login-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     text-align: center;
 }
-.learn-button{
-    background-color: #656565;
-    color: white;
-    border: #656565;
+.register-button{
+    background: #242424;
+    color: #ffffff;
+    border:none;
+    padding: 8px 16px;
 }
+ul {
+  list-style-type: none;
+}
+label{
+    float: left;
+}
+#username,
+#password{
+    float:right;
+    width:85%;
+    margin-right: 30px;
+}
+.last-section{
+    clear: both;
+    bottom: 0;
+}
+/*kanika's css code end here*/
